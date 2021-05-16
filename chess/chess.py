@@ -1,5 +1,4 @@
 import pygame as pg
-import time
 pg.init()
 width,height = 600,600
 cir = lambda pos,color,radi:pg.draw.circle(window,C_BWRGBYCM[color],(int(pos[0]),int(pos[1])),radi,0)
